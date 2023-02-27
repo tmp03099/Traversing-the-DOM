@@ -55,9 +55,13 @@ console.log(firstLi.textContent);
 
 //* add the code here
 const backToTheUl = thirdLi.parentElement;
+
 // Log the backToTheUl -> (ul)
 console.log(backToTheUl);
 
+/*In most cases, parentElement it is the same as parentNode. 
+The only difference comes when a node's parentNode is not an element. It is document node.
+If so, parentElement is null. */
 
 console.log(body.childNodes)
 console.log(body.children)
